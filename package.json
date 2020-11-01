@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Shivam-47/counter-app/issues"
   },
-  "homepage": "https://github.com/Shivam-47/counter-app#readme"
+  "homepage": "https://github.com/Shivam-47/counter-app#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
