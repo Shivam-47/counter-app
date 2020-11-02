@@ -20,7 +20,7 @@
 <body>
 
 <audio id="myAudio">
-  <source src="audio/hare_rama.mp3" type="audio/mpeg">
+  <source src="hare_rama.mp3" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>
 
@@ -46,12 +46,12 @@ function playAudio(){
 }
 
 function myFunction() {
-  if(count!=0 && count<108){
+  if(count!=0 && count<10){
   	document.getElementById("demo").innerHTML = count;
     document.getElementById("demo").style.color="red";
     document.getElementById("demo").style.fontSize="xx-large";
     }
-   if(count===108){
+   if(count===10){
    	document.getElementById("demo").innerHTML = "JAI SHRI RAAM!";
 	playAudio();
     count=0;
